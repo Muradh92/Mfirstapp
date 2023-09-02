@@ -1,0 +1,98 @@
+* {
+    block-sizing: border-box;
+
+}
+
+.header {
+    background-color: yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #5c5959;
+
+
+    
+}
+
+.header h1 {
+
+    text-align: center;
+    text-decoration-style: wavy
+    
+   
+}
+
+.header p {
+    text-align: center;
+
+}
+
+.container {
+   padding: 50px;
+   
+    }
+
+    .section {
+        background-color: orange;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .section img {
+        width: 150px;
+        height: 170px;
+        margin: 30px;
+        float: right;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+.section h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .section ul {
+        padding: 5px;
+        margin: 15px;
+        text-align: center;
+        list-style-type: none;
+        font-weight: 900;
+        text-decoration-style: wavy solid bold;
+    
+    }
+.section h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.section ol {
+    padding: 5px;
+        margin: 15px;
+        text-align: center;
+        list-style-type: none;
+        font-weight: 900;
+        text-decoration-style: wavy solid bold;
+}
+
+
+    .table {
+        background-color: aqua;
+        border-radius: 10px;
+        text-align: center;
+           
+    }
+    
+    .table table th {
+
+        
+        padding: 0 0 20px 20px;
+       font-size: medium;
+
+
+
+    }
