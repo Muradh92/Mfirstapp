@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.profile {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+
+}
+.profile h1 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.profile img {
+    width: 70%%;
+    
+}
+
+.info  {
+    border: 1px solid gray;
+    font-weight: 600;
+    padding: 20px;
+    margin: 20px;    
+}
+.info p {
+    text-align: center;
+    text-align: justify;
+    margin-top: 1px;
+    padding: 4px;
+}
