@@ -6,15 +6,67 @@
 
     <title>Document</title>
     <link href="./stylecss/reset.css" rel="stylesheet"/>
-    <link href="./stylecss/INdex.css" rel="stylesheet"/>
+    <link href="./stylecss/portfolio.css" rel="stylesheet"/>
+    <link href="./stylecss/contact.css" rel="stylesheet"/>
 </head>
 <body>
-<header>
+<header class="header">
 
+<div class="container">
 
+ <a href="index.html" class="logo">Your Name </a>
+
+    <nav class="header-nav">
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+
+            </nav> 
+    </div>
 </header>
-<main></main>
-<footer></footer>
+<main class="main-container">
+<section class="main-section">
+    <h1>Contact</h1>
+    <Form class="Contact-form">
+        <ul>
+            <li><label for="name">Name</label>
+            <input type="text" id="name"    placeholder="Murad Hasanov" required="required">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@gmail.com" required>
+
+            </li>
+            <li>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required="required"></textarea>
+            </li>
+            <input type="submit">
+            
+
+        </ul>
+    </Form>
+    
+</section>
+<section class="side-bar">
+    <div class="social">
+        <h2>Connect with me</h2>
+        <a href="£">
+            <img src="linkedin-128.png" alt="linkedin" class="social-icon">
+        </a>
+        <a href="£">
+            <img src="github-128.png" alt="github" class="social-icon">
+        </a>
+        <a href="£">
+            <img src="stackoverflow-128.png" alt="stackover" class="social-icon">
+        </a>
+    </div>
+</section>
+</main>
+<footer>
+    <div class="container">Copyright &copy; 2017 your name</div>
+    
+</footer>
     
 </body>
 </html>
