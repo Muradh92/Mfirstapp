@@ -1,0 +1,67 @@
+@import url(./Reset.css);
+@import url(./Variable.css);
+@import url(./Font.css);
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fontRoboto);
+
+    
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    height: 107px;
+    
+    border-bottom: 1px solid #E7E7E7;
+    
+
+
+}
+
+.logo-content{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav-link{
+    color: var(--textblack);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.nav-item:last-child .nav-link{
+
+    font-weight: 800;
+    color: var(--maingreen);
+
+
+}
+
+.logo-title{
+    font-size: 32px;
+    font-family: var(--fontOpensans);
+    color: var(--textblack);
+    font-weight: 700;
+    letter-spacing: -1.28px;
+    line-height: normal;
+
+
+    
+}
